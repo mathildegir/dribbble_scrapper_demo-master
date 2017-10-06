@@ -1,140 +1,80 @@
+/* style.css */
 body{
-  background: white;
-  color: rgb(15,15,15);
-  font-size: 15px;
-  font-family: 'Open Sans', sans-serif;
+  background: #F8F4E3;
+  background-color: 12879F
+  color: 12879F;
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
 }
-h1{
-  font-family: 'Montserrat', sans-serif;
-  color: white;
+
+h1{font-family: 'Fredericka the Great', cursive;
+  color: 4CE0B3;
+  font-weight: strong;
+  font-size: 40px;
+  text-align: center;
+}
+p {
+  font-family: 'Fredericka the Great', cursive;
+  color: 12879F;
   font-weight: lighter;
-  font-size: 60px;
-}
-h1, h2, h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  text-align: center;
 }
 a {
-  color: black;
-  text-decoration: none;
+  color: orange;
 }
 a:hover {
   text-decoration: none;
-  color: #8F2425;
+  color: purple;
+}
+#banner {
+  text-align: center;
+  background-image: url("https://static.pexels.com/photos/209135/pexels-photo-209135.jpeg");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
 }
 
-#footer a {
-  color: lightgrey;
+#banner h1{
+  color: white
+}
+#banner a:hover {
+  color: white
+}
+.btn {
+  font-family: 'Permanent Marker', cursive;
+}
+.slogan {
+  border-radius: 10px;
+  padding:60px;
+
+}
+.slogan p {
+  border-radius: 50%;
+  font-family: 'PT Serif', serif;
   font-size: 15px;
 }
-#footer a:hover {
-  color: white;
+.slogan h2{
+  font-family: 'Permanent Marker', cursive;
+  font-size:25px;
+  color:#12816F;
 }
 
-#banner{
-  text-align: center;
-  background-image: linear-gradient(-225deg, transparent 0%, rgba(0,0,0,0.5) 60%), url("images/bootcamp.gif");
-  background-size: cover;
-  padding-top: 150px;
-  height: 100vh;
-  color: white;
-
-}
-
-#gif{
-  text-align: center;
-  background-image: url("images/hello.gif");
-  background-size: cover;
-  padding: 30vw 0;
-  color: white;
-  overflow-y: hidden;
-}
-
-#banner h1 {
-  color: white;
-  font-size: 50px;
-  font-weight: bolder;
-  text-shadow: 1px 1px 5px black;
-  padding-top: 30px;
-}
-#banner p {
-  color: rgb(230,23);
-  opacity: 0.8;
-  font-size: 25px;
-  font-weight: lighter;
-  text-shadow: 1px 1px 5px black;
-  padding-bottom: 40px
+.wrapper {
+  margin: 0;
+  padding: 50px;
+  background-color: #B1DED0;
+  font-family: 'Kumar One Outline', cursive;
 }
 #footer{
-  padding: 30px;
-  background: rgb(30, 30, 30);
-  color: lightgrey;
-}
-.card{
-  padding: 70px 30px;
-  font-weight: lighter;
   text-align: center;
-}
-
-.icon-size {
-  font-size: 50px;
-}
-
-.form-margin {
-  margin-top: 20px;
-}
-
-.btn-red {
-  color: white;
-  background-color: #D23333;
-}
-
-#wufoo-sx0l84z1iszo7g {
-  padding: 50px 30px;
-}
-
-.cta {
-  background-color: rgb(220,220,220);
   padding: 50px;
+  background-color: #424B54;
+  color:darkgrey;
+  font-size: 12px;
 }
-
 #footer a {
-  font-size: 30px;
-}
-
-#footer a:hover {
-  color: #D23333;
-}
-
-/*Search List style*/
-
-.card-list {
-  display: flex;
-  background-color: rgb(240, 240, 240);
-  overflow-wrap: normal;
-  padding: 30px 90px;
-}
-
-.card-list:hover {
-  background-color: rgb(230, 230, 230);
-}
-
-
-
-.card-list-text {
-flex: 1 1 70%;
-text-align: left;
-padding:0 20px;
-}
-
-.card-list-text p {
-font-weight: lighter
-}
-
-.card-list-text h6 {
-font-style: italic;
-margin-top: 30px;
-}
-
-.card-list-img {
-  flex: 0 1 auto;
+  font-size:40px;
 }
